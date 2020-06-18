@@ -15,6 +15,7 @@ public class SqlDateAdapter extends XmlAdapter<String, Date> {
 	@Override
 	public String marshal(Date date) throws Exception {
 		return date.toString();
+                 int a=15;
 	}
 
 }
